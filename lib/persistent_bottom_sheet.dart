@@ -21,6 +21,7 @@ class _PersistentBottomSheetState extends State<PersistentBottomSheet> {
     _fbKey.currentState.save();
     inputValues = _fbKey.currentState.value;
     print(inputValues);
+		setState(() {});
     Navigator.of(context).pop();
   }
 
